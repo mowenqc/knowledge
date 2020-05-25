@@ -1,5 +1,6 @@
 package com.mowen.eah;
 
+import com.mowen.ic.InnerClass;
 import entity.Student;
 
 import java.util.HashMap;
@@ -31,7 +32,6 @@ public class OverrideEqualsAndHashCode {
         System.out.println(student1.getName());
         student1.setName("mowen1");
         System.out.println(student1.hashCode());
-
 
     }
 }

@@ -1,8 +1,6 @@
 package entity;
 
-import com.sun.istack.internal.NotNull;
 import lombok.Data;
-import lombok.NonNull;
 
 /****
  * @project: knowledge_parent
@@ -13,30 +11,12 @@ import lombok.NonNull;
 @Data
 public class Student {
 
-
-    private String stuNo;
-
     private String name;
+    private String stuNo;
+    private String age;
 
-    private String phone;
-
-    public Student() {
-    }
-
+    public Student(){}
     public Student(String stuNo){
         this.stuNo = stuNo;
     }
-
-    @Override
-    public boolean equals(Object obj) {
-        if(obj instanceof Student){
-            return stuNo.equals(((Student) obj).getStuNo());
-        }
-        return false;
-    }
-
-    /*@Override
-    public int hashCode() {
-        return stuNo.hashCode();
-    }*/
 }

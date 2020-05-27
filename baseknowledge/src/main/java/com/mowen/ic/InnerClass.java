@@ -18,7 +18,8 @@ public class InnerClass {
     }
 
     public static void main(String[] args) {
-        new InnerClass().initData();
+        Integer integer = Integer.valueOf("000");
+        System.out.println(integer);
     }
 
 

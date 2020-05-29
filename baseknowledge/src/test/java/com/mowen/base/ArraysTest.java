@@ -1,5 +1,7 @@
 package com.mowen.base;
 
+import com.google.common.collect.Lists;
+import org.apache.commons.lang3.ArrayUtils;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -23,8 +25,8 @@ public class ArraysTest {
         int[] ofRange = Arrays.copyOfRange(idArr, 1, 2);
 
         Arrays.sort(idArr);
-
-
+        System.out.println(idArr);
+        ArrayUtils.reverse(idArr);
         System.out.println(idArr);
 
     }

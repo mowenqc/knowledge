@@ -3,6 +3,7 @@ package com.mowen.ld;
 import entity.Student;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /****
@@ -32,7 +33,7 @@ public class LamdaMain {
     }
 
     public static void main(String[] args) {
-        LamdaMain main = new LamdaMain();
+        /*LamdaMain main = new LamdaMain();
         main.initData();
         List<Student> studentList = main.getStudentList();
         List<String> collect = studentList.stream().flatMap(student -> Arrays.stream(student.getName().split(""))).collect(Collectors.toList());
@@ -57,6 +58,11 @@ public class LamdaMain {
 
         Map<String, List<Student>> collect2 = studentList.stream().collect(Collectors.groupingBy(Student::getName));
         System.out.println(collect2);
+        studentList.stream().collect(Collectors.toMap(Student::getName, Function.identity(),(key1, key2)->key1));*/
+
+        MyInterface myInterface = () -> {System.out.println("a");return 1;};
+        myInterface.doSomeThing();
+
     }
 
     public List<Student> getStudentList() {

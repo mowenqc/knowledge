@@ -15,7 +15,5 @@ public class StringTest {
         buffer.append("_1");
         System.out.println(builder);
         System.out.println(buffer);
-
-
     }
 }

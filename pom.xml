@@ -23,6 +23,7 @@
   <modules>
     <module>baseknowledge</module>
     <module>algorithm</module>
+    <module>use-tool</module>
   </modules>
 
 
@@ -36,7 +37,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
-      <version>1.2.56</version>
+      <version>1.2.70</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>

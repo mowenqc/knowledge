@@ -2,6 +2,8 @@ package com.mowen.tool.use.apache.domain;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /****
  * @project: knowledge_parent
  * @author: huangkai
@@ -9,7 +11,7 @@ import lombok.Data;
  * @description:
  *****/
 @Data
-public class User {
+public class User implements Serializable {
 
     private int id;
     private String name;

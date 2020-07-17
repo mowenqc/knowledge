@@ -4,7 +4,7 @@ import cn.mowenqc.util.BaseSort;
 
 /**
  * @description: knowledge_parent
- * @author: huangkai
+ * @author: mowenqc
  * @createTime: 2020/7/17 15:37
  */
 public class QuickSort extends BaseSort {

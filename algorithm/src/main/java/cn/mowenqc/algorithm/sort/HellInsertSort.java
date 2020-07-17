@@ -4,7 +4,7 @@ import cn.mowenqc.util.BaseSort;
 
 /**
  * @description: knowledge_parent
- * @author: huangkai
+ * @author: mowenqc
  * @createTime: 2020/7/17 10:59
  */
 public class HellInsertSort extends BaseSort {

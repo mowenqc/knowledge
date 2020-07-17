@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * @description: knowledge_parent
- * @author: huangkai
+ * @author: mowenqc
  * @createTime: 2020/7/17 14:42
  */
 public class RandomUtil {

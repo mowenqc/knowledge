@@ -2,7 +2,7 @@ package cn.mowenqc.util;
 
 /**
  * @description: knowledge_parent
- * @author: huangkai
+ * @author: mowenqc
  * @createTime: 2020/7/17 14:55
  */
 public class BaseSort {

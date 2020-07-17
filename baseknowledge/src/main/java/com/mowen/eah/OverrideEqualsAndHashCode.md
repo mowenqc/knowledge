@@ -1,6 +1,0 @@
-<h1>重写equals必须要重写hashCode吗</h1>
-不一定
-如果整个系统中，这个对象都没有用到对象的hashCode，这时重写了equals不一定要重写hashCode
-只要在需要用到hashCode的地方才需要重写hashCode
-如果重写了equals，而不重写hashCode,可能出现两个对象相等，而hashCode不同，这有违背java对象相等的规则
-我们要求两个对象相等，他们的hashCode也相等

@@ -35,9 +35,6 @@ public class HeapSort extends BaseSort {
         int left = 2 * i + 1;
         int right = 2 * i + 2;
         int maxIndex = i;
-        if (left > length && right > length) {
-            return;
-        }
         if (left < length && array[left] > array[maxIndex]) {
             maxIndex = left;
         }

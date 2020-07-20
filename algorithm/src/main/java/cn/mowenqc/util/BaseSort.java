@@ -7,11 +7,9 @@ package cn.mowenqc.util;
  */
 public class BaseSort {
 
-
-    protected static void swap(int[] array, int i, int j) {
-        int tmp = array[i];
-        array[i] = array[j];
-        array[j] = tmp;
+    protected static int [] getInitArray(){
+        int [] array = {85,18,34,62,77,11,46,54,69,26};
+        return array;
     }
 
     protected static void printArray(int [] array){
@@ -28,8 +26,9 @@ public class BaseSort {
         System.out.println(stringBuilder.toString());
     }
 
-    protected static int [] getInitArray(){
-        int [] array = {85,18,34,62,77,11,46,54,69,26};
-        return array;
+    protected static void swap(int[] array, int i, int j) {
+        int tmp = array[i];
+        array[i] = array[j];
+        array[j] = tmp;
     }
 }

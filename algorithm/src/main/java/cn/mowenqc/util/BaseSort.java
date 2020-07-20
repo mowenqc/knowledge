@@ -20,6 +20,9 @@ public class BaseSort {
             if(stringBuilder.toString().length() > 0){
                 stringBuilder.append(",");
             }
+            if(datum < 10){
+                stringBuilder.append(" ");
+            }
             stringBuilder.append(datum);
         }
         System.out.println(stringBuilder.toString());

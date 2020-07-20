@@ -10,7 +10,7 @@ import cn.mowenqc.util.BaseSort;
 public class HellInsertSort extends BaseSort {
 
     public static void main(String[] params) {
-        int[] array = {85, 8, 34, 62, 87, 11, 36, 64, 89, 13};
+        int[] array = getInitArray();
         printArray(array);
         int length = array.length;
         //确定步长

@@ -10,7 +10,7 @@ import cn.mowenqc.util.BaseSort;
 public class BubbleSort extends BaseSort {
 
     public static void main(String[] params){
-        int[] array = {85,8,34,62,87,11,36,64,89,13};
+        int[] array = getInitArray();
         printArray(array);
         int length = array.length;
         for (int i = length - 1; i >= 0; i--) {

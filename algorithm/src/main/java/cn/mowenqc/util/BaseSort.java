@@ -26,7 +26,7 @@ public class BaseSort {
     }
 
     protected static int [] getInitArray(){
-        int [] array = {85,8,34,62,87,11,36,64,89,13};
+        int [] array = {85,18,34,62,87,11,36,64,89,13};
         return array;
     }
 }

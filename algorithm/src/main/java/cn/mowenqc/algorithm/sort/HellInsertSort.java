@@ -15,7 +15,7 @@ public class HellInsertSort extends BaseSort {
         int length = array.length;
         //确定步长
         for (int i = length / 2; i > 0; i = i / 2) {
-            for (int j = 0; j < length; j = j + i) {
+            for (int j = i; j < length; j = j + i) {
                 int tmp = array[j];
                 int index = j;
                 for (int k = j; k >= 0; k = k - i) {

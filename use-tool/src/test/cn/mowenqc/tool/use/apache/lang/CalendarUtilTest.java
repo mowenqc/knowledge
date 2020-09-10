@@ -16,6 +16,7 @@ public class CalendarUtilTest {
         int dayOfMonth = CalendarUtils.INSTANCE.getDayOfMonth();
         int month = CalendarUtils.INSTANCE.getMonth();
         int year = CalendarUtils.INSTANCE.getYear();
+
         System.out.println(dayOfMonth);
         System.out.println(month + 1);//这儿月份减了1
         System.out.println(year);

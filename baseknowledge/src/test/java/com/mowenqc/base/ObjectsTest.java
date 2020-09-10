@@ -16,6 +16,5 @@ public class ObjectsTest {
         Objects.nonNull(object);
         Objects.requireNonNull(object);
         Objects.requireNonNull(object, "对象不能为空");
-
     }
 }

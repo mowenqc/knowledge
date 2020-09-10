@@ -1,7 +1,11 @@
 package com.mowenqc.base;
 
+import com.google.common.collect.Lists;
+import org.junit.Test;
+
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /****
  * @project: knowledge_parent
@@ -11,10 +15,14 @@ import java.util.List;
  *****/
 public class CollectionsTest {
 
+    @Test
     public void testCollections(){
-        List<String> objects = Collections.emptyList();
+        List<String> objects = Lists.newArrayList();
+        Collections.addAll(objects,"hello","world","!");
         Collections.shuffle(objects);
         Collections.reverse(objects);
         Collections.sort(objects);
+        System.out.println(objects);
+
     }
 }

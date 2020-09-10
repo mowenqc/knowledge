@@ -38,6 +38,7 @@ public class ArraysUtilsTest {
             System.out.println(i1);
         }
 
+
         ArrayUtils.shuffle(array);
         for (int i1 : array) {
             System.out.println(i1);

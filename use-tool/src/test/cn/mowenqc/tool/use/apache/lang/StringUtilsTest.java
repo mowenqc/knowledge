@@ -17,5 +17,9 @@ public class StringUtilsTest {
         String reverse = StringUtils.reverse(ss);
         System.out.println(reverse);
         System.out.println(StringUtils.strip(ss));
+        String substring = StringUtils.substring(ss, 3, 5);
+        System.out.println(substring);
+        String strip = StringUtils.strip(ss);
+        System.out.println(strip);
     }
 }

@@ -16,10 +16,11 @@ public class RandomTest {
 
     @Test
     public void testRandom(){
-        int i = 10;
+        int i = 15;
         Random random = new Random();
         for (int j = 1; j < i+1;j++){
-            System.out.println(random.nextInt(10));
+            random.setSeed(j);
+            System.out.println(random.nextInt(20));
         }
     }
 

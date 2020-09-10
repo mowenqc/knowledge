@@ -19,8 +19,5 @@ public class SystemInfo {
         for (Map.Entry<String, String> entry : environment.entrySet()) {
             System.out.println(entry.getKey() + "=" + entry.getValue());
         }
-
-
-
     }
 }

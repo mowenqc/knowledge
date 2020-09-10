@@ -26,14 +26,17 @@ public class CountSort extends BaseSort {
                 min = item;
             }
         }
+        //新建一个数组，能容纳最大元素
         int[] middleArray = new int[max - min + 2];
         Arrays.fill(middleArray, 0);
         //在这里值考虑min大于0的情况
         int bias = min - 1;
+        //统计元素的个数
         for (int item : array) {
             middleArray[item - bias]++;
         }
         int index = 0;
+        //将统计结果大于0的数据回写到原数组中
         for (int i = 0; i < middleArray.length; i++) {
             if (middleArray[i] > 0) {
                 array[index++] = i + bias;

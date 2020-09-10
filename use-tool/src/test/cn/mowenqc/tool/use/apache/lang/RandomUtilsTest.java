@@ -13,8 +13,8 @@ public class RandomUtilsTest {
 
     @Test
     public void testRandom(){
-        for (int i = 0; i < 100; i++){
-            int anInt = RandomUtils.nextInt(10, 1000);
+        for (int i = 0; i < 15; i++){
+            int anInt = RandomUtils.nextInt(1, 20);
             System.out.println(anInt);
         }
     }

@@ -8,7 +8,7 @@ package cn.mowenqc.util;
 public class BaseSort {
 
     protected static int [] getInitArray(){
-        int [] array = {85,18,34,62,77,11,46,54,69,26};
+        int [] array = {85,18,34,62,77,11,46,54,69,26 };
         return array;
     }
 
